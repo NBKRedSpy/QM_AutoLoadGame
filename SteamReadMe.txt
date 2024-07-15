@@ -1,7 +1,7 @@
 [h1]Quasimorph Auto Load Save[/h1]
 
 
-After three seconds, the last game that was loaded will automatically load.  The time can be configured and the load aborted.
+When loading the game, the mod will automatically load the last game loaded after three seconds.
 
 The auto load can be aborted by the following:
 [list]
