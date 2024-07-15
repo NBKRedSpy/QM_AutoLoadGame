@@ -1,0 +1,7 @@
+{
+    "UniqueModName": "nbk_redspy_QM_AutoLoadGame",
+    "Assemblies": [
+        "QM_AutoLoadGame.dll"
+    ],
+    "Dependencies": []
+}
