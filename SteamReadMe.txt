@@ -2,6 +2,7 @@
 
 
 When loading the game, the mod will automatically load the last game loaded after three seconds.
+The delay is configurable.
 
 The auto load can be aborted by the following:
 [list]
