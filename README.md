@@ -3,6 +3,7 @@
 ![slot loader icon](media/SlotLoader.png)
 
 When loading the game, the mod will automatically load the last game loaded after three seconds.
+The delay is configurable.
 
 The auto load can be aborted by the following:
 * Holding or pressing the shift key when the main menu is shown.
