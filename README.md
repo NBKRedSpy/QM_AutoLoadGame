@@ -23,6 +23,10 @@ The configuration file will be created on the first game run and can be found at
 |CountDownSeconds|3|How many seconds will elapse before the auto load occurs|
 |LastLoadedSlot||Ignore this item.  It is the storage for the last slot that was loaded|
 
+# Support
+If you enjoy my mods and want to leave a tip, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
+Thanks!
+
 # Source Code
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_AutoLoadGame
 
