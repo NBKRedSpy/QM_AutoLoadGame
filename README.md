@@ -24,7 +24,7 @@ The configuration file will be created on the first game run and can be found at
 |LastLoadedSlot||Ignore this item.  It is the storage for the last slot that was loaded|
 
 # Support
-If you enjoy my mods and want to leave a tip, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
+If you enjoy my mods and want to buy me a coffee, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
 Thanks!
 
 # Source Code
