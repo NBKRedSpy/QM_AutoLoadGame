@@ -80,8 +80,7 @@ namespace QM_AutoLoadGame
                     //Prevent auto load from running if returning to the main window.
                     AbortAutoLoad = true;
 
-                    __instance.StartGameBtnOnClick(null);
-                    
+                    __instance.StartGameBtnOnClick(null, 1);
                 }
             }
         }
