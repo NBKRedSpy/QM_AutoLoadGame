@@ -64,3 +64,10 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_AutoLoadGa
 [h1]Credits:[/h1]
 
 [url=https://www.flaticon.com/free-icons/loader]Loader icons created by Freepik - Flaticon[/url]
+
+[h1]Change Log[/h1]
+
+[h2]1.1.0[/h2]
+[list]
+[*]Version .8 compatibility
+[/list]
