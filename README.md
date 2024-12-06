@@ -15,7 +15,7 @@ This mod is particularly useful for modders which reload the the same save many,
 
 # Configuration
 
-The configuration file will be created on the first game run and can be found at `%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph\QM_AutoLoadGame\QM_AutoLoadGame.json`.  
+The configuration file will be created on the first game run and can be found at `%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\QM_AutoLoadGame\QM_AutoLoadGame.json`.  
 
 |Name|Default|Description|
 |--|--|--|
