@@ -27,9 +27,7 @@ namespace QM_AutoLoadGame
         public bool Disable { get; set; } = false;
         public int LastLoadedSlot { get; set; } = -1;
 
-
         public int CountDownSeconds { get; set; } = 3;
-
 
         public static ModConfig LoadConfig()
         {

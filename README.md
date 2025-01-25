@@ -35,5 +35,7 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_AutoLoadGa
 
 # Change Log
 
+## 1.3.0
+* Version 0.8.5 compatibility
 ## 1.1.0
-* Version .8 compatibility
+* Version 0.8 compatibility

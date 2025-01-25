@@ -36,6 +36,8 @@ namespace QM_AutoLoadGame
 
         public static bool IsAutoLoading { get; set; } = false;
 
+        public static State State { get; set; }
+
         static Plugin()
         {
             ModAssemblyName = Assembly.GetExecutingAssembly().GetName().Name;
@@ -50,6 +52,7 @@ namespace QM_AutoLoadGame
         [Hook(ModHookType.AfterConfigsLoaded)]
         public static void AfterConfig(IModContext context)
         {
+            State = context.State;
 
             try
             {

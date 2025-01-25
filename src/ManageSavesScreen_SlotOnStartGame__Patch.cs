@@ -2,6 +2,7 @@
 using MGSC;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,13 +10,13 @@ using System.Threading.Tasks;
 namespace QM_AutoLoadGame
 {
     [HarmonyPatch(typeof(ManageSavesScreen), nameof(ManageSavesScreen.SlotOnStartGame))]
-    internal class ManageSavesScreen_SlotOnStartGame_Patch
+    internal static class ManageSavesScreen_SlotOnStartGame__Patch
     {
-        public static void Postfix(ManageSavesScreen __instance, int gameSlot)
+        public static void Prefix(int gameSlot)
         {
-
             Plugin.Config.LastLoadedSlot = gameSlot;
             Plugin.Config.SaveConfig();
         }
     }
 }
+
