@@ -14,13 +14,13 @@ namespace QM_AutoLoadGame
     {
         public static bool Prefix(ManageSavesScreen __instance)
         {
-            if (!PressAnyKeyScreen_Patch.AutoLoad)
+            if (!PressAnyKeyScreen_Update__Patch.AutoLoad)
             {
                 return true;
             }
 
-            PressAnyKeyScreen_Patch.AutoLoad = false;
-            __instance.SlotOnStartGame(0, false);
+            PressAnyKeyScreen_Update__Patch.AutoLoad = false;
+            __instance.SlotOnStartGame(Plugin.Config.LastLoadedSlot, false);
             return false;
         }
     }

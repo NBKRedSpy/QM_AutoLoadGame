@@ -14,7 +14,7 @@ namespace QM_AutoLoadGame
     {
         public static bool Prefix(MainMenuScreen __instance)
         {
-            if(!PressAnyKeyScreen_Patch.AutoLoad)
+            if(!PressAnyKeyScreen_Update__Patch.AutoLoad)
             { 
                 return true; 
             }
