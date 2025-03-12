@@ -2,6 +2,13 @@
 
 ![slot loader icon](media/SlotLoader.png)
 
+# Important!
+This is a temporary version that supports the 0.8.6 beta.  
+The non beta version *must* be uninstalled.  
+When the 0.8.6 becomes the main version, this mod will be deleted.
+
+# Docs
+
 When loading the game, the mod will automatically load the last game loaded after three seconds.
 The delay is configurable.
 
@@ -34,6 +41,9 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_AutoLoadGa
 [Loader icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/loader)
 
 # Change Log
+
+## 1.4.0
+* Version 0.8.6 compatibility
 
 ## 1.3.1
 * Fixed loading wrong slot (was always the first slot)

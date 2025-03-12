@@ -1,6 +1,14 @@
 [h1]Quasimorph Auto Load Save[/h1]
 
 
+[h1]Important![/h1]
+
+This is a temporary version that supports the 0.8.6 beta.
+The non beta version [i]must[/i] be uninstalled.
+When the 0.8.6 becomes the main version, this mod will be deleted.
+
+[h1]Docs[/h1]
+
 When loading the game, the mod will automatically load the last game loaded after three seconds.
 The delay is configurable.
 
@@ -66,6 +74,11 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_AutoLoadGa
 [url=https://www.flaticon.com/free-icons/loader]Loader icons created by Freepik - Flaticon[/url]
 
 [h1]Change Log[/h1]
+
+[h2]1.4.0[/h2]
+[list]
+[*]Version 0.8.6 compatibility
+[/list]
 
 [h2]1.3.1[/h2]
 [list]

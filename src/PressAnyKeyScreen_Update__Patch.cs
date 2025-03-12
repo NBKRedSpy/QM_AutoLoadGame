@@ -64,7 +64,16 @@ namespace QM_AutoLoadGame
                 WaitingForCountdown = false;
                 AutoLoad = true;
                 __instance.gameObject.SetActive(value: false);
-                SingletonMonoBehaviour<MainMenuUI>.Instance.MainMenuScreen.Show();
+
+                //Have to show or the back button will not work.
+                //Otherwise, the main menu will have some elements loaded and cause null errors.
+                UI.Chain<MainMenuScreen>().HideAll().Show();
+                UI.Chain<ManageSavesScreen>().HideAll().Show();
+
+                ManageSavesScreen saveScreen = UI.Get<ManageSavesScreen>();
+
+                saveScreen.SlotOnStartGame(Plugin.Config.LastLoadedSlot, false);
+
                 return false;
             }
 
