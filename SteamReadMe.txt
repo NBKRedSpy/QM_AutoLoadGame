@@ -3,7 +3,7 @@
 
 [h1]Important![/h1]
 
-This is a temporary version that supports the 0.8.6 beta.
+This is a temporary version that supports the 0.8.6 beta, and not the current game's version.
 The non beta version [i]must[/i] be uninstalled.
 When the 0.8.6 becomes the main version, this mod will be deleted.
 
