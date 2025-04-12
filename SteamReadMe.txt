@@ -67,6 +67,11 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_AutoLoadGa
 
 [h1]Change Log[/h1]
 
+[h2]1.4.1[/h2]
+[list]
+[*]Version 0.8.6 compatibility
+[/list]
+
 [h2]1.3.1[/h2]
 [list]
 [*]Fixed loading wrong slot (was always the first slot)
